@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ColorMemoryGame/static/css/main.1a69ee3b.chunk.css",
+    "main.js": "/ColorMemoryGame/static/js/main.de82edb7.chunk.js",
+    "main.js.map": "/ColorMemoryGame/static/js/main.de82edb7.chunk.js.map",
+    "runtime-main.js": "/ColorMemoryGame/static/js/runtime-main.78242950.js",
+    "runtime-main.js.map": "/ColorMemoryGame/static/js/runtime-main.78242950.js.map",
+    "static/js/2.a4f70863.chunk.js": "/ColorMemoryGame/static/js/2.a4f70863.chunk.js",
+    "static/js/2.a4f70863.chunk.js.map": "/ColorMemoryGame/static/js/2.a4f70863.chunk.js.map",
+    "index.html": "/ColorMemoryGame/index.html",
+    "precache-manifest.d7decc4778b4c91d2b48158fe304f4ae.js": "/ColorMemoryGame/precache-manifest.d7decc4778b4c91d2b48158fe304f4ae.js",
+    "service-worker.js": "/ColorMemoryGame/service-worker.js",
+    "static/css/main.1a69ee3b.chunk.css.map": "/ColorMemoryGame/static/css/main.1a69ee3b.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78242950.js",
+    "static/js/2.a4f70863.chunk.js",
+    "static/css/main.1a69ee3b.chunk.css",
+    "static/js/main.de82edb7.chunk.js"
+  ]
+}
