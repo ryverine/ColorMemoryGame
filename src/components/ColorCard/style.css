@@ -1,0 +1,9 @@
+
+.imgContainer{
+  margin: 5px;
+  border: 10px solid white;
+}
+
+.imgContainer:hover{
+  border-color: blue;
+}

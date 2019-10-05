@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Black",
+    "image": "images/img_black.png"
+  },
+  {
+    "id": 2,
+    "name": "Blue",
+    "image": "images/img_blue.png"
+  },
+  {
+    "id": 3,
+    "name": "Dark Blue",
+    "image": "images/img_blue_dark.png"
+  },
+  {
+    "id": 4,
+    "name": "Dull Blue",
+    "image": "images/img_blue_dull.png"
+  },
+  {
+    "id": 5,
+    "name": "Light Blue",
+    "image": "images/img_blue_light.png"
+  },
+  {
+    "id": 6,
+    "name": "Brown",
+    "image": "images/img_brown.png"
+  },
+  {
+    "id": 7,
+    "name": "Dark Gray",
+    "image": "images/img_gray_dark.png"
+  },
+  {
+    "id": 8,
+    "name": "Gray Light",
+    "image": "images/img_gray_light.png"
+  },
+  {
+    "id": 9,
+    "name": "Green",
+    "image": "images/img_green.png"
+  },
+  {
+    "id": 10,
+    "name": "Light Green",
+    "image": "images/img_green_light.png"
+  },
+  {
+    "id": 11,
+    "name": "Orange",
+    "image": "images/img_orange.png"
+  },
+  {
+    "id": 12,
+    "name": "Light Orange",
+    "image": "images/img_orange_light.png"
+  },
+  {
+    "id": 13,
+    "name": "Pink",
+    "image": "images/img_pink.png"
+  },
+  {
+    "id": 14,
+    "name": "Dark Pink",
+    "image": "images/img_pink_dark.png"
+  },
+  {
+    "id": 15,
+    "name": "Purple",
+    "image": "images/img_purple.png"
+  },
+  {
+    "id": 16,
+    "name": "Light Purple",
+    "image": "images/img_purple_light.png"
+  },
+  {
+    "id": 17,
+    "name": "Red",
+    "image": "images/img_red.png"
+  },
+  {
+    "id": 18,
+    "name": "Dark Red",
+    "image": "images/img_red_dark.png"
+  },
+  {
+    "id": 19,
+    "name": "Yellow",
+    "image": "images/img_yellow.png"
+  },
+  {
+    "id": 20,
+    "name": "Light Yellow",
+    "image": "images/img_yellow_light.png"
+  }
+]
