@@ -12,8 +12,11 @@ GitHub Pages deploy was a bit quarrelsome.
 Arnaud's article helped me get my React app deployed.
 
 >    How to Create a React Application and Deploy It on GitHub Pages
+>
 >    Arnaud Christ
+>
 >    Jul 29, 2019
+>
 >    https://www.pluralsight.com/guides/how-to-create-react-application-and-deploy-on-github-pages
 
 This article had me create the `gh-pages` branch manually and push the resulting content of `npm run build` to that branch.
