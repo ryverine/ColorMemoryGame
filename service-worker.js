@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ColorMemoryGame/precache-manifest.d7decc4778b4c91d2b48158fe304f4ae.js"
+  "/ColorMemoryGame/precache-manifest.1119c271be4b410ce1d8c53e97514c67.js"
 );
 
 self.addEventListener('message', (event) => {
