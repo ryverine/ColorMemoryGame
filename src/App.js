@@ -2,14 +2,23 @@ import React, { Component } from "react";
 import ColorCard from "./components/ColorCard";
 import Wrapper from "./components/Wrapper";
 import GameOver from "./components/GameOver";
+import DifficultySelector from "./components/DifficultySelector";
 import {Title, Subtitle} from "./components/Title";
 import Score from "./components/Score";
 import colors from "./colors.json";
+// import easyColors from "./easyColors.json";
+// import normalColors from "./normalColors.json";
+// import hardColors from "./hardColors.json";
+
+//let easyMax = 10;
+let normalMax = 20;
+//let hardMax = 36;
 
 class App extends Component {
   state = {
     pickedColors: [],
     score: 0,
+    maxScore: normalMax,
     gameOver: false,
     colors 
   };
@@ -98,7 +107,7 @@ class App extends Component {
     }
     else
     {
-      if (this.state.score >= 20)
+      if (this.state.score >= this.state.maxScore)
       {
         return(
           <Wrapper>
@@ -118,6 +127,7 @@ class App extends Component {
           <React.Fragment>
             <Title>Color Memory Clicky Game</Title>
             <Subtitle>Try to pick each color only once!</Subtitle>
+            <DifficultySelector />
             <Score>{this.state.score}</Score>
             <Wrapper>
             {this.state.colors.map(color => (

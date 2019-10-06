@@ -10,7 +10,7 @@ A memory game build with React. An exercise in breaking up an application's UI i
 
 * HTML
 * CSS | Bootstrap
-* JavaScript
+* JavaScript | ES6
 * Node.js
 * React.js
 
@@ -20,11 +20,23 @@ Click each color only once!
 
 User's score is incremented when clicking an image for the first time. 
 
-The user's score is reset to 0 if they click the same image more than once, and the user will get the option to restart the game.
+The user's score is reset to zero if they click the same image more than once, and the user will get the option to restart the game.
 
 Every time an image is clicked, the images rendered to the page shuffle themselves in a random order.
 
 Once all images have been clicked the user will receive a congratulatory message and get the option to restart the game.
+
+## Difficulty
+
+By default `Difficulty` is set to `normal`.
+
+Changing `Difficulty` sets user score to 0, and restarts the game.
+
+Settings:
+
+* Easy: One tile for each color group.
+* Normal: Two tiles for each color group, except for `blue` which will have four tiles.
+* Hard: Four tiles for each color group.
 
 # Special Thanks To Arnaud Christ!
 

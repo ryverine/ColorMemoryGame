@@ -1,0 +1,10 @@
+
+.selectorContainer{
+    text-align: center;
+    margin: 5px;
+    border: 10px solid blueviolet;
+  }
+  
+  .selectorContainer:hover{
+    
+  }
