@@ -21,7 +21,7 @@ Arnaud's article helped me get my React app deployed.
 
 This article had me create the `gh-pages` branch manually and push the resulting content of `npm run build` to that branch.
 
-Previous articles seemed to rely on the built-in funcionality of [gh-pages npm](https://www.npmjs.com/package/gh-pages), like the [create=-react-app deployment guide](https://create-react-app.dev/docs/deployment).
+Previous articles seemed to rely on the built-in funcionality of [gh-pages npm](https://www.npmjs.com/package/gh-pages), like the [create-react-app deployment guide](https://create-react-app.dev/docs/deployment).
 
 I could not get my app deployed wih those dircetion on account of recieving a `Could not read from remote repository` error after executing `npm run deploy`.
 
