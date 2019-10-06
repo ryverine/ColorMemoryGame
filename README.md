@@ -18,7 +18,7 @@ A memory game build with React. An exercise in breaking up an application's UI i
 
 Click each color only once!
 
-User's score should be incremented when clicking an image for the first time. 
+User's score is incremented when clicking an image for the first time. 
 
 The user's score is reset to 0 if they click the same image more than once, and the user will get the option to restart the game.
 
