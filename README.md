@@ -1,9 +1,30 @@
-# ColorMemoryGame
+# Color Memory Game
+
+Deployed App: https://ryverine.github.io/ColorMemoryGame/
+
 New version of Color Memory Clicky Game built with React.
+
+A memory game build with React. An exercise in breaking up an application's UI into components, managing component state, and responding to user events.
+
+# Technologies
+
+* HTML
+* CSS | Bootstrap
+* JavaScript
+* Node.js
+* React.js
+
+# Game Play
 
 Click each color only once!
 
-Deployed App: https://ryverine.github.io/ColorMemoryGame/
+User's score should be incremented when clicking an image for the first time. 
+
+The user's score is reset to 0 if they click the same image more than once, and the user will get the option to restart the game.
+
+Every time an image is clicked, the images rendered to the page shuffle themselves in a random order.
+
+Once all images have been clicked the user will receive a congratulatory message and get the option to restart the game.
 
 # Special Thanks To Arnaud Christ!
 
