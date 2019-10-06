@@ -5,7 +5,7 @@ Click each color only once!
 
 Deployed App: https://ryverine.github.io/ColorMemoryGame/
 
-#### Special Thanks To Arnaud Christ!
+# Special Thanks To Arnaud Christ!
 
 GitHub Pages deploy was a bit quarrelsome.
 
