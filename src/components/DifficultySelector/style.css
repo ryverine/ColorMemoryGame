@@ -1,10 +1,18 @@
 
 .selectorContainer{
-    text-align: center;
-    margin: 5px;
+    padding: 10px;
     border: 10px solid blueviolet;
-  }
-  
-  .selectorContainer:hover{
-    
-  }
+}
+
+.difficultySelector{
+    margin: 5px;
+    width: auto;
+    color: white;
+    font-weight: bold;
+}
+
+/*
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+*/

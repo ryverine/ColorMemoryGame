@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import ColorCard from "./components/ColorCard";
 import Wrapper from "./components/Wrapper";
 import GameOver from "./components/GameOver";
+//import DifficultySection from "./components/DifficultySection";
 import DifficultySelector from "./components/DifficultySelector";
 import {Title, Subtitle} from "./components/Title";
 import Score from "./components/Score";
-import colors from "./colors.json";
-// import easyColors from "./easyColors.json";
-// import normalColors from "./normalColors.json";
-// import hardColors from "./hardColors.json";
+// import colors from "./colors.json";
+// import colorsEasy from "./colorsEasy.json";
+import colorsNormal from "./colorsNormal.json";
+// import colorsHards from "./colorsHard.json";
 
 //let easyMax = 10;
 let normalMax = 20;
@@ -20,7 +21,8 @@ class App extends Component {
     score: 0,
     maxScore: normalMax,
     gameOver: false,
-    colors 
+    difficulty: "normal",
+    colors: colorsNormal
   };
 
   shuffleColorCards = () =>{
@@ -75,6 +77,35 @@ class App extends Component {
 
   };
 
+  changeDifficulty = (diff) =>{
+    // update colors
+    // update score
+    // change 
+
+    // diff 
+    // easy
+    // normal
+    // hard
+
+    //const btnName = event.target.getAttribute("type");
+
+    alert(diff);
+  };
+
+
+  /*handleBtnClick = (event) => {
+    // Get the title of the clicked button
+    const btnName = event.target.getAttribute("data-value");
+    if (btnName === "next") {
+      const userIndex = this.state.userIndex + 1;
+      this.nextUser(userIndex);
+    } else {
+      const userIndex = this.state.userIndex - 1;
+      this.previousUser(userIndex);
+    }
+  };*/
+
+
   startGame = () => {
     console.log("START GAME");
 
@@ -127,7 +158,12 @@ class App extends Component {
           <React.Fragment>
             <Title>Color Memory Clicky Game</Title>
             <Subtitle>Try to pick each color only once!</Subtitle>
-            <DifficultySelector />
+          
+              <DifficultySelector type="Easy" onClick={this.changeDifficulty("Easy")}/>
+              <DifficultySelector type="Normal" onClick={this.changeDifficulty("Normal")}/>
+              <DifficultySelector type="Hard" onClick={this.changeDifficulty("Hard")}/>
+          
+
             <Score>{this.state.score}</Score>
             <Wrapper>
             {this.state.colors.map(color => (
@@ -153,7 +189,6 @@ export default App;
 
 /*
 Default create-react-app
-
 
 import React from 'react';
 import logo from './logo.svg';
@@ -181,9 +216,5 @@ function App() {
 }
 
 export default App;
-
-
-
-
 
 */
