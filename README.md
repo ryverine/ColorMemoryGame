@@ -1,6 +1,6 @@
 # Color Memory Game
 
-Deployed App: https://ryverine.github.io/ColorMemoryGame/
+[Deployed App](https://ryverine.github.io/ColorMemoryGame/)
 
 New version of Color Memory Clicky Game built with React.
 
